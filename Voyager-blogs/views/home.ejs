@@ -1,0 +1,27 @@
+<%- include('./partials/header'); -%>
+
+
+
+
+
+<body style="background-color:#FCAEAE;">
+   
+
+
+
+
+
+<%posts.forEach(function(post){ %>
+   <h1><%= post.title %></h1>
+   <p><%= post.content.substring(0, 100) + "..." %>
+    
+    <a href="/posts/<%=post._id%>">Read More</a></p>
+    <p><b>Written By:- <%= post.name %> </b></p>
+    <p><i><%= post.time %></i></p>
+<%}); %>
+
+</body>
+
+
+
+

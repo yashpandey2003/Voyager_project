@@ -1,0 +1,31 @@
+.App{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif; */
+  background-size: cover;
+  background-image: url('./images/Background.jpg');
+  
+} 
+.logo-img{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-bottom: 600px;
+  margin-right: 1350px;
+
+}
+.second-container{
+  background-color: rgb(34, 34, 34);
+  height: 100px;
+  width: 100vw;
+  background-size: cover;
+
+}
+
+
+
+
+
